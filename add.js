@@ -1,5 +1,9 @@
-function add(a, b) {
-  return a + b;
+function add(a, b, ...rest) {
+  let ttl = 0;
+  for (let index = 0; index < rest.length; index++) {
+    ttl += rest[index];
+  }
+  return a + b + ttl;
 }
 
 function divider() {
