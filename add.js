@@ -20,7 +20,7 @@ function divider() {
     },
     {
       id: 3,
-      name: "apel baru",
+      name: "apel lama",
       price: 3400,
     },
   ];
