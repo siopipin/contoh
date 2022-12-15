@@ -1,5 +1,5 @@
 function add(a, b, ...rest) {
-  let ttl = 0;
+  let ttl = 2;
   for (let index = 0; index < rest.length; index++) {
     ttl += rest[index];
   }
