@@ -1,11 +1,5 @@
-function add(a, b, ...rest) {
-  console.log(rest);
-  let ttl = 2;
-  for (let index = 0; index < rest.length; index++) {
-    ttl += rest[index];
-  }
-
-  return a + b + ttl;
+function add(a, b) {
+  return a + b;
 }
 
 function divider() {
