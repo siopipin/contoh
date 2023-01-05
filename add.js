@@ -36,6 +36,7 @@ function login(a, b) {
   console.log(a + b);
 
   //B1
+  //b10
 }
 
 module.exports = { add, divider };
