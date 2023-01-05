@@ -32,7 +32,7 @@ function divider() {
 }
 
 function login(a, b) {
-  return 0;
+  console.log(a + b);
 }
 
 module.exports = { add, divider };
