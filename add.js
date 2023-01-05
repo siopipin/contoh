@@ -31,14 +31,4 @@ function divider() {
   console.log(ttlharga);
 }
 
-function login(a, b) {
-  console.log(a + b);
-  console.log(a + b);
-
-  //B1
-  //b10
-  //b11
-  //b11.0
-}
-
 module.exports = { add, divider };
